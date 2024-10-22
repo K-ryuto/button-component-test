@@ -14,6 +14,6 @@ export const SwitchDevice = (query:string) => {
         const dev = matchMedia(formattedQuery)
         dev.onchange = (e) => setDevice(e.matches)
         
-    }, [])
+    }, [formattedQuery])
     return device
 }

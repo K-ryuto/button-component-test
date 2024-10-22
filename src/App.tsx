@@ -1,5 +1,3 @@
-import React from 'react';
-import { Button } from './Button';
 import { mediaQuery, SwitchDevice } from './SwitchDevice'
 import { PcComponent } from './pcComponent'
 import { PsComponent } from './psComponen'
